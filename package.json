@@ -1,0 +1,13 @@
+{
+  "name": "backend-ms",
+  "version": "1.0.0",
+  "description": "Production-ready backend for OpenShift demo",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
